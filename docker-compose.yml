@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"  # Streamlit
+      - "8502:8502"  # WebSocket
+    restart: unless-stopped

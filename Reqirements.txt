@@ -1,0 +1,6 @@
+streamlit
+fastapi
+uvicorn
+websockets
+python-multipart
+streamlit-autorefresh
